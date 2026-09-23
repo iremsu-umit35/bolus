@@ -1,0 +1,62 @@
+/*
+ * Uygulamanın global renk değişkenleri, temel tipografisi ve erişilebilir odak stilleri.
+ */
+:root {
+  font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: #17211d;
+  background: #f8faf8;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --ink: #17211d;
+  --ink-soft: #2b3731;
+  --muted: #5d6963;
+  --muted-light: #737f79;
+  --border: #dfe5e1;
+  --border-strong: #d3dcd6;
+  --border-soft: #edf0ee;
+  --green-050: #f2f8f4;
+  --green-100: #d9eade;
+  --green-600: #2f7b5e;
+  --green-700: #21694f;
+  --green-800: #18523e;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  overflow-x: clip;
+  background: #fafbfa;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+button:focus-visible,
+a:focus-visible {
+  outline: 3px solid rgba(47, 123, 94, 0.38);
+  outline-offset: 3px;
+}
+
+button:active {
+  transform: translateY(1px);
+}
+
+::selection {
+  background: #cfe4d7;
+  color: #123c2e;
+}
