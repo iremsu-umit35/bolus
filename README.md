@@ -93,11 +93,7 @@ Build çıktısı `dist` klasöründe oluşturulur.
 
 ## 🌐 Canlı Demo
 
-Canlı demo bağlantısı deployment tamamlandıktan sonra eklenecektir.
-
-## 📸 Ekran Görüntüsü
-
-Proje ekran görüntüsü GitHub yayını öncesinde eklenecektir.
+[Bölüş'ü canlı olarak görüntüle](https://iremsu-umit35.github.io/bolus/)
 
 ## Veri Saklama
 
